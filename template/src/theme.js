@@ -104,7 +104,8 @@ export const themeSettings = (mode) => {
       },
       MuiOutlinedInput: {
         styleOverrides: {
-          root: ({ theme }) => ({
+          root: () => ({
+            // root: ({ theme }) => ({
             "&:hover .MuiOutlinedInput-notchedOutline": {
               // borderColor: theme.palette.neutral.dark,
               borderColor: "rgba(255, 255, 255, 0.7)",
